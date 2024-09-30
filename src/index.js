@@ -8,7 +8,7 @@ import Customer from './components/Customer';
 import Product from './components/Product';
 import User from './components/User';
 import Notification from './components/Notification';
-import Documents from './components/Document';
+import Documents from './components/Documents';
 import DFAPI from './components/DFAPI';
 import BeneficialProduct from './components/BeneficialProduct';
 

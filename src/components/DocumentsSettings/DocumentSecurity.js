@@ -1,1 +1,0 @@
-// DocumentSecurity.js

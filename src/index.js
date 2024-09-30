@@ -1,14 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from 'react-dom';
+import 'antd/dist/reset.css'; // Import Ant Design CSS reset
+import './index.css'; // Import custom global styles (optional)
+import App from './App'; // Import the root component
+import reportWebVitals from './reportWebVitals'; // Optional: for performance metrics
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById('root') // Render the App component in the root div
 );
 
 // If you want to start measuring performance in your app, pass a function
